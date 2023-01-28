@@ -22,6 +22,7 @@ def total_expenses(monthly_expenses: dict) -> int:
         total_expenses: total expenses
     """
     y=0
+    
     for i in monthly_expenses.values():
         y+=i
     return y
